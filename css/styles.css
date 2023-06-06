@@ -1,0 +1,134 @@
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    @media screen and (min-width:850px) {
+            .header {
+                display: flex;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 1%;
+            }
+            .logo {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: black;
+                font-size: 32px;
+                font-weight: bold;
+            }
+            .header-list {
+                padding-left: 20px;
+                display: flex;
+                list-style: none;
+                margin-top: 1%;
+                text-decoration: none;
+                color: black;
+            }
+            .header-list a {
+                text-decoration: none;
+                color: black;
+                margin-right: 5%;
+                
+            }
+            .header-list-item {
+                margin-right: 2%;
+                font-size: 18px;
+            }
+            .header-icons {
+                display: flex;
+                list-style: none;
+                margin-left: 45%;
+                margin-top: 1%;
+            }
+            .header-icon img {
+                width: 20px;
+                height: 20px;
+                margin-right: 20px;
+            }
+            .write {
+                width: 100px;
+            }
+            .menunavbar {
+                display: none;
+            }
+        
+    }
+    
+
+
+
+    @media  screen and (max-width:849px) {
+                  .header {
+                display: flex;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 1%;
+            }
+            .logo {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: black;
+                font-size: 32px;
+                font-weight: bold;
+            }
+            .header-list {
+                margin-left: 5%;
+                padding-left: 20px;
+                display: flex;
+                list-style: none;
+                margin-top: 1.5%;
+                text-decoration: none;
+                color: black;
+            }
+            .header-list a {
+                text-decoration: none;
+                color: black;
+                margin-right: 5%;
+                
+            }
+            .header-list-item {
+                margin-right: 2%;
+                font-size: 18px;
+            }
+            .header-icons {
+             display: none;
+            }
+        
+            .write {
+                width: 100px;
+            }
+            .menunavbar {
+                display: none;
+            }
+        
+    }
+
+    @media screen and (max-width:599px) {
+        .menunavbar {
+            display: flex;
+            margin-left: 40%;
+            
+            
+        }
+        .menunavbar span {
+            font-size: 16px;
+            list-style: none;
+            text-decoration: none;
+            color: gray !important;
+        }
+        .mobilemenu {
+            color: gray !important;
+        
+        }
+        .header-icons {
+            display: none;
+        }
+        .header-list {
+            display: none;
+        }
+        .text-body-secondary {
+            text-decoration: none;
+        }
+       
+    }
